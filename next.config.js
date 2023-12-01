@@ -16,6 +16,9 @@ if (isGithubActions) {
 }
 
 module.exports = withBundleAnalyzer({
+  compiler: {
+    styledComponents: true,
+  },
   eslint: {
     dirs: ['.'],
   },

@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Landing page template built with Next.js & TailwindCSS ",
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
@@ -38,7 +38,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.48.2",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "sharp": "^0.33.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
